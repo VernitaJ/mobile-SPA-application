@@ -1,0 +1,507 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+.App {
+  font-family: Roboto, sans-serif;
+}
+body {
+  background: url("https://image.freepik.com/free-vector/map-background-and-pirate-ships-in-flat-design_23-2147626836.jpg")
+    no-repeat;
+}
+
+.tutorial-page__container {
+  border: none;
+  display: block;
+  background-color: rgb(58, 58, 88);
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  height: auto;
+  border-radius: 20px 20px;
+}
+.tutorial-page__links {
+  display: flex;
+  justify-content: space-between;
+}
+.tutorial-page__quest-link {
+  display: block;
+  width: 70px;
+  height: 30px;
+  border-radius: 20px 20px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(23, 91, 240);
+  border: none;
+}
+
+.tutorial-page__map-link {
+  display: block;
+  width: 70px;
+  height: 30px;
+  border-radius: 20px 20px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(43, 110, 30);
+  border: none;
+}
+.tutorial-page__register-page {
+  display: block;
+  width: 100px;
+  height: 60px;
+  border-radius: 30px 30px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(63, 180, 83);
+  border: none;
+}
+
+.tutorial-page__text {
+  font-size: 15px;
+  color: white;
+}
+.quest-page__container {
+  border: none;
+  display: block;
+  height: auto;
+  border-radius: 20px 20px;
+}
+
+.map-page__container {
+  border: none;
+  display: block;
+  background-color: lightblue;
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  height: 100%;
+  border-radius: 20px 20px;
+}
+
+.landing-page__container {
+  border: none;
+  height: 600px;
+  border-radius: 20px 20px;
+  background-color: rgba(247, 247, 247, 0.8);
+  width: 100%;
+  padding-top: 10px;
+}
+
+.map-view__map {
+  width: 350px;
+  border-radius: 20px 20px;
+}
+
+.map-view__text {
+  color: rgb(10, 93, 187);
+  margin: 20px;
+}
+
+.map-view__tutorial-button {
+  display: block;
+  width: 80px;
+  height: 40px;
+  float: right;
+  border-radius: 40px 40px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(23, 91, 240);
+  border: outset lightcoral 5px;
+  margin-right: 30px;
+}
+
+.map-view__tutorial-button:active {
+  border: inset lightcoral 5px;
+  margin-right: 30px;
+}
+
+.landing-page__container a {
+  width: 30%;
+}
+
+.landing-page__sign-up-button {
+  display: block;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px 10px;
+  background-color: goldenrod;
+  color: white;
+  border: none;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.landing-page__sign-in-button {
+  display: block;
+  width: 150px;
+  height: 40px;
+  border-radius: 10px 10px;
+  background-color: white;
+  color: goldenrod;
+  border: none;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.landing-page__tutorial-button {
+  display: block;
+  width: 80px;
+  height: 40px;
+  float: right;
+  border-radius: 40px 40px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(23, 91, 240);
+  border: none;
+  margin-right: 30px;
+  margin-top: 50px;
+}
+
+.landing-page__text {
+  display: block;
+  width: 150px;
+  color: rgb(9, 63, 13);
+  border: none;
+  margin: auto;
+}
+
+.landing-page__facebook-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  padding: 0;
+  height: 40px;
+  border-radius: 30px 30px;
+  color: white;
+  background: rgb(74, 74, 192);
+}
+
+.landing-page__facebook-container p {
+  margin-left: 25px;
+}
+.facebook-icon {
+  width: 30px;
+  height: 35px;
+  margin-left: 7px;
+  margin-top: 3px;
+  margin-right: 2px;
+}
+
+.google-icon {
+  width: 30px;
+  height: 33px;
+  margin-left: 10px;
+  margin-top: 3px;
+  margin-right: 2px;
+}
+
+.landing-page__google-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  height: 40px;
+  border-radius: 35px 35px;
+  color: white;
+  background: rgb(202, 37, 37);
+}
+
+.landing-page__google-container p {
+  margin-left: 25px;
+}
+
+.landing-page__bottom-section {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.landing-page__bottom-section p {
+  margin-top: 12px;
+  font-size: 13px;
+}
+
+.landing-page__heading {
+  display: block;
+  margin: 0;
+  width: 500px;
+}
+.landing-page__register-form {
+  width: 500px;
+}
+
+.sign-in__body {
+  background-color: rgba(230, 243, 231, 0.8);
+  margin: 0px;
+  width: 100%;
+  height: 800px;
+}
+.sign-in__form {
+}
+
+.sign-up__container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sign-up__body {
+  background-color: rgba(245, 252, 245, 0.8);
+  margin: 0px;
+  width: 100%;
+  height: 800px;
+}
+
+.sign-up__form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-weight: bold;
+  color: darkgreen;
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+.sign-up__form label {
+  width: 70%;
+  padding-bottom: 5px;
+}
+
+.sign-up__form input {
+  width: 70%;
+  height: 20px;
+  padding: 10px;
+  border-color: green;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 4px;
+  background-color: transparent;
+  margin-bottom: 20px;
+}
+
+.sign-up__button {
+  background-color: white;
+  border: none;
+  border-radius: 10px 10px;
+  width: 150px;
+  margin-top: 10px;
+  height: 40px;
+}
+
+.sign-in__form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-weight: bold;
+  color: darkgreen;
+  font-size: 12px;
+  margin-left: 20px;
+}
+
+.sign-in__form label {
+  width: 70%;
+  padding-bottom: 5px;
+}
+
+.sign-in__form input {
+  width: 70%;
+  height: 20px;
+  padding: 10px;
+  border-color: green;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 4px;
+  background-color: transparent;
+  margin-bottom: 20px;
+}
+
+.sign-in__button {
+  background-color: white;
+  border: none;
+  border-radius: 10px 10px;
+  width: 150px;
+  margin-top: 10px;
+  height: 40px;
+}
+
+.social-media-button {
+}
+
+.sign-up__logo {
+  display: block;
+  margin: auto;
+  padding: 30px;
+  width: 300px;
+}
+
+.quest-options__icon {
+  height: 50px;
+  width: 60px;
+  margin: 15px;
+  margin-right: 0;
+}
+
+.quest-options__icon-container {
+  display: flex;
+  width: 300px;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  border-radius: 20px 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 0px;
+}
+/* 
+.quest-options__icon-container:active {
+  background-color: rgba(37, 161, 46, 0.3);
+  box-shadow: inset 0 0 3px #213b04;
+} */
+
+.quest-options__art-icon-text {
+  margin-left: 30px;
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(243, 85, 12);
+}
+
+.quest-options__art-icon-text:active {
+  text-decoration: none;
+  color: darkorange;
+}
+
+.quest-options__history-icon-text {
+  margin-left: 30px;
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(243, 12, 12);
+}
+
+.quest-options__history-icon-text:active {
+  text-decoration: none;
+  color: rgb(255, 51, 0);
+}
+
+.quest-options__sport-icon-text {
+  margin-left: 30px;
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(35, 12, 243);
+}
+
+.quest-options__sport-icon-text:active {
+  text-decoration: none;
+  color: rgb(30, 121, 133);
+}
+
+.quest-options__nature-icon-text {
+  margin-left: 30px;
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(42, 102, 14);
+}
+
+.quest-options__nature-icon-text:active {
+  text-decoration: none;
+  color: rgb(48, 136, 21);
+}
+
+.quest-options__logo {
+  width: 150px;
+  margin-left: 0px;
+  margin-top: 10px;
+  height: 100px;
+}
+.quest-options__architecture-icon-text {
+  margin-left: 30px;
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(133, 123, 40);
+}
+
+.quest-options__architecture-icon-text:active {
+  text-decoration: none;
+  color: rgb(211, 201, 63);
+}
+
+.quest-options__container {
+  margin: 0px;
+  width: 100%;
+  height: 800px;
+}
+
+.quest-options__heading {
+  display: block;
+  color: darkgreen;
+  margin: 20px;
+  font-size: 24px;
+}
+
+.quest-view__image {
+  width: 60%;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+
+.quest-view__text {
+  width: 80%;
+  font-size: 20px;
+  color: white;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+.quest-view__links {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.quest-view__tutorial-link {
+  display: block;
+  width: 70px;
+  height: 30px;
+  border-radius: 20px 20px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(23, 91, 240);
+  border: none;
+}
+
+.quest-view__map-link {
+  display: block;
+  width: 70px;
+  height: 30px;
+  border-radius: 20px 20px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(43, 110, 30);
+  border: none;
+}
+
+a {
+  text-emphasis: none;
+  text-decoration: none;
+}
+
+.map-view__container {
+  border: none;
+  height: 600px;
+  border-radius: 20px 20px;
+  background-color: rgba(251, 255, 252, 0.8);
+  width: 100%;
+  padding-top: 10px;
+}
+
+.map-view__heading {
+  display: block;
+  color: rgb(47, 46, 116);
+  margin-left: 20px;
+}
